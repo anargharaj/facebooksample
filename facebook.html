@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook login page</title>
+    <link rel="stylesheet" href="./facebook.css">
+    <link rel="stylesheet" href="./facebookconnectingimage.jpg">
+</head>
+
+<body>
+    <div class="header">
+        <label class="logo">facebook</label>
+        <div class="logincontainer">
+            <form class="loginform" action="">
+                <table>
+                    <tr>
+                        <td><label class="emailphone" for="email">Email or phone</label></td>
+                        <td><label class="loginpaswrd" for="password">password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="email" name="email"></td>
+                        <td><input type="text" id="password" name="password"></td>
+                        <td><button type="submit" class="btn">Log In</button></td>
+                    </tr>
+                </table>
+                <a href="#" class="forgottenAccount">Forgotten password?</a>
+            </form>
+        </div>
+    </div>
+    <div class="mainContainer">
+        <div class="leftContent">
+            <h2 class="heading2">Facebook helps you connect and share with the <br>
+                people in your life.</h2>
+            <img src="./facebookconnectingimage.jpg" alt="facebook connection graphic" class="connectingImage">
+        </div>
+        <div class="rightContent">
+            <h1 class="headingRight"> Create an account</h1>
+            <p class="para">it's quick and easy.</p>
+            <form action="signup" class="signUpForm">
+                <input type="text" class="fName" placeholder="first name">
+                <input type="text" class="sName" placeholder="surname"><br><br>
+                <input type="text" class="mobileEmail" placeholder="mobile number or email address"><br><br>
+                <input type="password" class="password" placeholder="new password"><br><br>
+                <label for="birthday" class="birthday">Birthday</label><br><br>
+                <select class="dob" id="birthday">
+                    <option value="">day</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+
+                </select>
+                <select class="dob" id="birthdaymonth">
+                    <option value="">month</option>
+                    <option value="">jan</option>
+                    <option value="">feb</option>
+                    <option value="">march</option>
+                    <option value="">april</option>
+                </select>
+                <select class="dob" id="birthday year">
+                    <option value="">year</option>
+                    <option value="">2015</option>
+                    <option value="">2016</option>
+                    <option value="">2017</option>
+                    <option value="">2018</option>
+                    <option value="">2019</option>
+                </select>
+                <br><br>
+                <label class="gender">Gender</label><br><br>
+                <label class="gendertype"><input type="radio" name="gender" id="">female</label>
+                <label class="gendertype"><input type="radio" name="gender" id="">male</label>
+                <label class="gendertype"><input type="radio" name="gender" id="">custome</label><br><br>
+                <p class="tndc">By clicking sign up, you agree to our <a href="#">Terms</a>,
+                    <a href="#">Data policy</a>and <a href="#"> <br>Cookie policy</a>.You may receive SMS notifications
+                    from us
+                    and <br> can opt out at any time.
+                </p><br>
+                <button type="submit" class="btnSignup">Sign Up</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
